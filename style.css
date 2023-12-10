@@ -1,0 +1,21 @@
+@keyframes kenburns {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+.kenburns-effect {
+    animation: kenburns 20s infinite alternate;
+}
+
+.circle {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #ffffff; /* Circle color */
+    border: 2px solid #3182ce; /* Border color */
+  }
+  
